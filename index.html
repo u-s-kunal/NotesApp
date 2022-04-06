@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="notes-card" id="notes-pad">
+        <h1>Notes</h1>
+        <div class="inputs">
+            <label for="title"><b> TITLE :-</b></label>
+            <input id="addTitle" type="text" placeholder="Write your Title..." maxlength="20" ><br><br>
+
+
+            <label for="notes"><b>CONTENT :-</b> </label>
+            <textarea id="addTxt" name="notes" cols="75" rows="10"
+                placeholder="Write your Notes here..." ></textarea>
+
+
+            <input id="addBtn" class="btn" value="ADD NOTE" type="submit"></input>
+        </div>
+
+        <section class="notes-row scroller" id="notes">
+            <!-- <div class="added">
+                <input id="${index} " onClick="deleteNote(this.id)" class="btn-x deleteBtn" value="X"></input>
+                <h2 class="card-title">${Element.title}</h2>
+                <p class="cardTxt">${Element.text}</p>
+
+            </div> -->
+        </section>
+
+    </div>
+</body>
+<script src="/logic.js"></script>
+
+</html>

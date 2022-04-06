@@ -1,0 +1,198 @@
+/* Notes */
+*{
+  margin: 0;
+  padding: 0;
+}
+.notes-card{
+    height: 160vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #091261;
+    /* margin-top: -300px; */
+    background-image: url(/virtual-assistant-circle-background-purple-gradient-disruptive-technology-min.jpg);
+    background-size: cover;
+    width: 100vw;
+
+
+
+  
+
+}
+
+ h1{
+  margin-top: 10px;
+  font-size: 6.6vw;
+  text-shadow: #091261cc 2px 2px 10px, #091261 3px 2px 70px;
+  width: 500px;
+  color: white;
+  text-align: center;
+
+
+}
+label{
+    font-size: 1.5vw;
+    padding: 10px 0px;
+    text-shadow: rgba(0, 0, 0, 0.863) 2px 2px 20px;
+    border: 1px solid white;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: inset 1px 1px 20px rgba(0, 0, 0, 0.664);
+
+}
+
+label b{
+     color:white;
+     letter-spacing: 2px;
+     margin-left: 10px;
+     font-weight: lighter;
+
+
+}
+
+
+.inputs{
+    background-color: #1100aaa1;
+    box-shadow: 0px 0px 30px #a02da1, inset  0px 0px 40px rgb(0, 140, 255), #a02da1 0px 0px 30px ,inset  0px 0px 30px white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 30px;
+    padding-left: 100px;
+    height: 580px;
+    margin-top: 40px;
+    
+}
+
+
+input{
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 50vw;
+    margin: 20px;
+    background-color: white;
+    border: white 2px solid;
+    color: black;
+    font-size: 1.5vw;
+    box-shadow: #000000cb 1px 1px 20px;
+
+}
+textarea{
+    height: 200px;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    margin-left: 13px;
+    margin-top: 20px;
+    width: 51vw;
+    font-size: 1.2vw;
+    background-color: white; 
+    border: white 2px solid;
+    box-shadow: #000000cb 1px 1px 20px;
+
+
+}
+
+input:hover,textarea:hover{
+  box-shadow: #ffffffcb 1px 1px 20px;
+
+
+}
+
+.btn{
+  width: 200px;
+  padding: 20px 15px;
+  margin-left: 550px;
+  border-radius: 10px;
+  box-shadow:inset #000000cb 1px 1px 20px;
+  background-color: #ac0101c4;
+  margin-top: 30px;
+  color: white;
+  font-weight: bolder;
+  transition: linear 0.4s;
+  font-size: 1.2vw;
+  font-weight: bolder;
+  border: 4px solid white;
+  box-shadow: #000000 1px 10px 50px;
+
+}
+.btn-x{
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 300px;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.2vw;
+  text-align: center;
+
+}
+.btn:hover{
+  background-color: #6707a7c9;
+  box-shadow: #ffffff 1px 10px 50px;
+}
+ .btn:active{
+  background-color: #1aa707c9;
+  box-shadow: #ffffff 1px 10px 50px;
+}
+.added{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 25%;
+  height: 80%;
+  border-radius: 20px;
+  background-color: #ac0101c4;
+  box-shadow: inset rgba(255, 255, 255, 0.616) 1px 1px 40px,#000000 1px 10px 40px;
+  padding: 30px;
+  margin: 10px 20px;
+ 
+}
+
+.added h2{
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+
+.added p{
+  overflow-y: auto;
+  box-shadow: inset 1px 1px 20px rgba(0, 0, 0, 0.664);
+  padding: 10px;
+  border-radius: 7px;
+  height: 200px;
+  text-align:justify;
+}
+
+.notes-row{
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  width: 100%;
+  margin-top: 50px;
+ text-align: center;
+}
+.notes-row h2{
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.notes-row b{
+  color: white;
+  font-size: 2vw;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 20px;
+
+  margin: auto;
+}
+
+
+.scroller {
+  scrollbar-color: rgb(249, 248, 250) transparent;
+  scrollbar-width: thin;
+}
